@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "blogs"
+    "displayName": "blogs",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,15 +21,15 @@
       "required": true
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
     "slug": {
       "type": "uid",
@@ -41,7 +42,8 @@
         "css",
         "javascript",
         "react",
-        "gatsby"
+        "gatsby",
+        "mood"
       ],
       "required": true
     },
